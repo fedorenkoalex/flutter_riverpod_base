@@ -1,0 +1,28 @@
+name: riverpod_base_demo
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.11.5
+
+dependencies:
+  dio: ^5.9.2
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^3.3.1
+  riverpod_annotation: ^4.0.2
+  json_annotation: ^4.11.0
+  flutter_secure_storage: ^8.0.0
+  go_router: ^17.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  riverpod_generator: ^4.0.3
+  build_runner: ^2.5.2
+  json_serializable: ^6.13.0
+
+flutter:
+  uses-material-design: true
